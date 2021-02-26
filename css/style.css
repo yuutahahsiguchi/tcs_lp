@@ -1,0 +1,419 @@
+html{
+  font-size: 62.5%;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  letter-spacing: -.2px;
+}
+img{
+  vertical-align: bottom;
+}
+a{
+  display: inline-block;
+}
+.onlySP{
+  display: none;
+}
+header{
+  width: 100%;
+  position: fixed;
+  border-top: solid #88b9e2 4px;
+  border-bottom: solid #88b9e2 1px;
+  background: #fff;
+  top: 0;
+  z-index: 99;
+}
+.flex-area{
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-area{
+  width: 950px;
+  margin: auto;
+  padding: 11px 0 14px;
+}
+#main-area{
+  background: url('../images/tcs_lp_bg02.jpg');
+  width: 100vw;
+}
+.top-slide {
+  position: relative;
+}
+.mainVisual {
+  position: relative;
+  border-top: solid #f4efe8 1px;
+  top: 8px;
+}
+.mainVisual img {
+    width: 100%;
+}
+.CatchCopy {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.entry-area {
+    background: url(../images/tcs_lp_bg01.png);
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+}
+.entry-btn {
+    padding: 35px 0 40px;
+    text-align: center;
+}
+.section {
+    width: 950px;
+    margin: auto;
+}
+.section h2 {
+    text-align: center;
+    padding: 60px 0 40px;
+}
+.slect-area{
+  padding-bottom: 40px;
+}
+.select-content,.Excellent {
+    position: relative;
+}
+.select-text {
+    font-size: 1.6rem;
+    padding: 0 27px;
+    position: absolute;
+    bottom: 50px;
+    line-height: 2;
+}
+#main-area span{
+  font-weight: bold;
+  color: #f2357c;
+}
+.Excellent {
+    margin-bottom: 70px;
+}
+.Excellent-text {
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: 54px;
+    right: 50px;
+    width: 720px;
+}
+.Excellent-text h2 {
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 0 0 10px;
+}
+.content-area {
+    background: #fff;
+    border-top: solid #9d7c24 2px;
+    padding-top: 3px;
+    margin-bottom: 40px;
+}
+.section-inner {
+    background-size: 4px 1px;
+    background-image: linear-gradient(to right, #cbb259, #cbb259 2px, transparent 2px, transparent 4px);
+    background-repeat: repeat-x;
+}
+.section-inner h3 {
+    font-size: 3.5rem;
+    padding-left: 12px;
+}
+.voice-head {
+    justify-content: normal;
+    padding: 15px 0 21px;
+}
+.voice-content {
+    align-items: stretch;
+}
+.content-text {
+    background: #f6f5f0;
+}
+.content-text p {
+    font-size: 1.6rem;
+    line-height: 2;
+    padding: 23px;
+}
+.reverse-flex{
+  flex-direction: row-reverse;
+}
+.detail-link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 35px 20px 40px;
+    line-height: 1.8;
+}
+.detail-link span {
+    font-size: 1.8rem;
+}
+.link-ic {
+    color: #94c0e5;
+    display: inline-block;
+    padding: 0 15px;
+}
+.link-ic::before {
+    content: "";
+    display: inline-block;
+    background: url(../images/tcs_lp_ic04.png);
+    width: 22px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.question, .answer {
+    padding: 0 30px;
+    font-size: 2.0rem;
+    position: relative;
+}
+.answer {
+    background: #f6f5f0;
+    font-size: 1.8rem;
+}
+.question p, .answer p {
+    padding: 25px 0 30px 70px;
+}
+.question p::before, .answer p::before {
+    content: "";
+    display: inline-block;
+    background: url('../images/tcs_lp_ic01.png');
+    width: 51px;
+    height: 69px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.answer p::before {
+  background: url(../images/tcs_lp_ic02.png);
+}
+#QandA-area .content-area:first-of-type {
+    margin-bottom: 20px;
+}
+#QandA-area .content-area:last-of-type {
+    margin-bottom: 85px;
+}
+#flow-area .content-area {
+    width: 210px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+#flow-area .section-inner h3 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #f2377d;
+    padding: 20px 0;
+}
+.flow-text {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 25px 20px 35px;
+    line-height: 1.9;
+}
+#flow-area .content-area::after {
+    content: "";
+    display: inline-block;
+    background: url('../images/tcs_lp_ic03.png');
+    width: 22px;
+    height: 23px;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#flow-area .content-area:last-of-type::after {
+  content: none;
+}
+.last-image {
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+#top-scroll {
+    position: relative;
+}
+#top-scroll a {
+    position: absolute;
+    z-index: 15;
+    bottom: -50px;
+    right: 40px;
+}
+footer {
+    background: #fff;
+    position: relative;
+}
+.CopyRight {
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    background: #fff;
+    padding: 35px 0 60px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.move-content{
+  opacity: 0;
+  transition: 1.5s;
+}
+.fadein{
+  opacity: 1;
+}
+@media screen and (max-width: 750px){
+.onlyPC{
+  display: none;
+}
+.onlySP{
+    display: block;
+  }
+  .flex-area{
+    flex-wrap: wrap;
+  }
+img,
+.header-area,
+.section ,
+.Excellent-text,
+#flow-area .content-area {
+width: 100%;
+}
+.header-area{
+  padding: 10px 7px 11px;
+}
+.header-logo {
+    width: 200px;
+}
+.header-entry-btn {
+    width: 148px;
+}
+.CatchCopy {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    transform: none;
+    padding: 0 5px;
+}
+.entry-btn {
+    padding: 19px 14px;
+}
+.select-content, .Excellent {
+    margin: 10px 15px;
+}
+.slect-area {
+    justify-content: space-around;
+}
+.select-text {
+    font-size: 1.7rem;
+  }
+.Excellent-text h2 {
+    padding: 0 0 14px;
+}
+.Excellent-text {
+    right: 0;
+    padding: 0 35px;
+}
+.section h2 {
+    padding: 30px 7px 15px;
+}
+#QandA-area h2 img {
+    width: 150px;
+}
+.section-inner h3 {
+    font-size: 2.1rem;
+    padding-left: 10px;
+}
+.content-area {
+  margin-bottom: 20px;
+}
+#QandA-area .content-area:last-of-type {
+    margin-bottom: 0;
+}
+.voice-head,
+.flow-list {
+    flex-wrap: nowrap;
+}
+.voice-ic {
+    width: 70px;
+}
+.content-text p {
+    font-size: 1.5rem;
+    padding: 29px 15px;
+}
+.detail-link {
+    padding: 20px 15px 32px;
+}
+.detail-link span {
+    font-size: 1.6rem;
+}
+.link-ic {
+    word-break: break-word;
+    position: relative;
+    padding-left: 30px;
+}
+.link-ic::before {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.question, .answer {
+    padding: 0 14px;
+    font-size: 1.6rem;
+    position: relative;
+}
+.answer {
+    display: none;
+  }
+.question::after{
+    content: "";
+    display: inline-block;
+    background: url(../images/tcs_lp_ic05.png);
+    background-size: cover;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.question.active::after{
+  background: url(../images/tcs_lp_ic05-on.png);
+  background-size: cover;
+}
+.question p, .answer p {
+  padding: 22px 45px 28px 64px;
+}
+.question p::before, .answer p::before {
+    left: 14px;
+}
+.flow-list {
+    padding: 20px;
+}
+.flow-text {
+    padding: 0;
+    margin-left: 16px;
+    font-size: 1.5rem;
+    width: 50%;
+}
+#flow-area .content-area {
+    margin-bottom: 35px;
+}
+#flow-area .section-inner h3 {
+    padding: 15px 0 0;
+}
+#flow-area .content-area::after {
+    right: 48%;
+    top: auto;
+    bottom: -30px;
+    transform: rotate(90deg);
+}
+#top-scroll a {
+    bottom: -140px;
+    right: 5px;
+}
+#top-scroll img {
+    width: 85px;
+    height: 85px;
+}
+.CopyRight {
+  padding: 35px 29px 100px;
+}
+}
